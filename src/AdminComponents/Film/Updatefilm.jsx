@@ -9,7 +9,7 @@ import withReactContent from 'sweetalert2-react-content'
 
 export default function Updatefilm() {
   const {id} = useParams()
-  console.log("Kontol : ",id)
+  console.log("=> : ",id)
   const navigate = useNavigate();
   const MySwal = withReactContent(Swal);
   const [cat, setCat] = useState([]);
